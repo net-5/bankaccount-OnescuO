@@ -13,7 +13,7 @@ namespace BankAccount
             account.MakeDeposit(100, DateTime.Now, "Friend paid me back");
             Console.WriteLine(account.Balance);
             
-            Console.WriteLine(account.CloseAccount());
+            
 
             Console.WriteLine(account.GetAccountHistory());
             
